@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 .home{
-    background-image: url(../images/slider-02.jpg);
+    background-image: url(images/slider-02.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
