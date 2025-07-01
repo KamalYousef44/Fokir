@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Roboto";
+    text-decoration: none;
+}
+.home{
+    background-image: url(../images/slider-02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    position: relative;
+    
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 2%;
+    height: 30px;
+    background-color:#080808;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.hello{
+    text-align: center;
+    padding-top: 15%;
+    padding-left: 5%;
+
+    
+}
+.headerOne{
+    color: aliceblue;
+    text-transform: lowercase;
+}
+.headerTwo{
+    color: #FF305B;
+    font-size: 60px;
+}
+nav a{
+    color: antiquewhite;
+    font-size: 18px;
+    margin: 5px;
+    
+}
+nav{
+    margin-right: 5%;
+}
+.fok{
+    color: #FF305B;
+    margin-left: 3%;
+}
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+    position: ;
+}
+.text , .mgwork{
+    width: 40%;
+}
+.table{
+    width: 500px;
+    height: 250px;
+
+}
+.mgwork{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    border: 8px solid rgba(0, 0, 0, 0.521);
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+.mgabout{
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    
+
+}
+.overlay1{
+    height:0px;
+    width: 350px;
+    position:absolute;
+    bottom:-30px;
+    left: 15px;
+    transition: 0.5s ease  ;
+    -webkit-transition: 0.5s ease  ;
+    -moz-transition: 0.5s ease  ;
+    -ms-transition: 0.5s ease  ;
+    -o-transition: 0.5s ease  ;
+}
+
+    
+    
+.mgwork:hover .overlay1 {
+    height:450px;
+    width: 350px;
+    background-color: rgba(128, 65, 65, 0.712);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+        
+        
+
+.services{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.212);
+
+}
+.our{
+    padding:6%;
+}
+.webDesign:hover{
+    background-color: antiquewhite;
+    box-shadow:5px 1px 5px 1px rgba(88, 87, 87, 0.164);
+    height: 250px;
+
+}
+.webDesign:hover .logo{
+    transform: scale(1.5);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.secThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.webDesign{
+    width: 23%;
+    height: 300px;
+    padding: 3%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+h3{
+    color: #faeded;
+}
+
+.p2 h3::after{
+    content: 'Developer';
+
+
+    animation-name: x;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    border-right: 2px solid white;
+}
+@keyframes x{
+    0%{
+        content: 'D';
+    }
+
+    2.8%{
+        content: 'De';
+    }
+    5.6%{
+        content: 'Dev';
+    }
+    8.5%{
+        content: 'Deve';
+    }
+    11.4%{
+        content: 'Devel';
+    }
+    14.2%{
+        content:'Develo'
+    }
+    17%{
+        content: 'Develop';
+
+    }
+    19.5%{
+        content: 'Develope';
+    }
+    22.9%{
+        content: 'Developer';
+    }
+    25.3%{
+        content: 'Developer';
+    }
+    28%{
+        content: 'Develope';
+    }
+    30.9%{
+        content: 'Develop';
+    }
+    33.8%{
+        content: 'Develo';
+    }
+    36.7%{
+        content: 'Devel';
+    }
+    39.6%{
+        content: 'Deve';
+    }
+    43.5%{
+        content: 'Dev';
+    }
+    46.4%{
+        content: 'De';
+    }
+    49.3%{
+        content: 'D';
+    }
+    52.2%{
+        content: '';
+    }
+    55.1%{
+        content: 'D';
+    }
+    58%{
+        content: 'De';
+    }
+    60.9%{
+        content: 'Des';
+    }
+    63.8%{
+        content: 'Desi';
+    }
+    66.7%{
+        content: 'Desig';
+    }
+    69.6%{
+        content: 'Design';
+    }
+    72.5%{
+        content: 'Designe';
+    }
+    75.4%{
+        content: 'Designer';
+    }
+    78.3%{
+        content: 'Designer';
+    }
+    81.2%{
+        content: 'Designe';
+    }
+    84.1%{
+        content: 'Design';
+    }
+    86.8%{
+        content: 'Desig';
+    }
+    89.5%{
+        content: 'Desi';
+    }
+    92%{
+        content: 'Des';
+    }
+    94.3%{
+        content: 'De';
+    }
+    96%{
+        content: 'D';
+    }
+    97%{
+        content:'';
+    }
+    100%{
+        content:'';
+    }
+
+
+    
+
+
+
+}
+.cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imags{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+.cloc{
+    position: relative;
+    width: 350px;
+    height: 275px;
+    margin: 2%;
+    
+}
+.layer{
+    position: absolute;
+    bottom: 0;
+    width: 350px;
+    height: 275px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.clock{
+    width: 350px;
+    height: 275px
+}
+.cloc:hover .layer{
+    background-color: rgba(0, 0, 0, 0.377);
+    position: absolute;
+    bottom: 0;
+    width: 350px;
+    height: 275px;
+    
+
+}
+.navtow , .porto{
+    text-align: center;
+    padding: 4%;
+}
+.coffee{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+    text-align: center;
+
+
+}
+.alex{
+    width: 50%;
+    height: 300px;
+    background-color: aquamarine;
+    position: relative;
+    overflow:hidden;
+    
+}
+.color{
+    position: absolute;
+    left: -20%;
+    top: -15px;
+    width: 250px;
+    height: 150px;
+    background-color: red;
+    transform: rotate(-55deg);
+    -webkit-transform: rotate(-55deg);
+    -moz-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+    -o-transform: rotate(-55deg);
+}
+.size{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+.tx{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
+.blogPic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.mmgg{
+    width:100%;
+}
